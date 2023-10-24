@@ -1,0 +1,10 @@
+*.zip
+*.jar
+
+00_projects/**/*.zip
+00_projects/**/*.jar
+
+git rm --cached 00_projects/**/*.zip
+git rm --cached 00_projects/**/*.jar
+
+my_projects/hivemq/data/**
